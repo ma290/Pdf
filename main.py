@@ -35,4 +35,4 @@ ui = gr.Interface(fn=process_pdf, inputs="file", outputs="text", title="PDF to Q
 
 if __name__ == "__main__":
     ui.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 8000)))
-  
+    
